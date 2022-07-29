@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    border-radius: 0px 0px 10px 10px;
+    /* padding: 10px; */
+    box-shadow: grey 10px 3px 2px;
+}
+.elem{
+    font-size: larger;
+    font-weight: bold;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: transparent;
+}
+.elem:hover{
+    background-color: rgb(201, 188, 188);
+    color: black;
+}
+.stores{
+    margin: 10px 0 0 0 ;
+    padding: 10px;
+    min-height: 90vh;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#card{
+    height: 400px;
+    width: 250px;
+    background-color: grey;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 0 0 10px;
+}
+.btn{
+    margin: 300px 10px 0 0 ;
+    bottom: 10px;
+    float: right;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+}
+.form{
+    margin: 10px 0 0 0 ;
+    padding: 10px;
+    min-height: 90vh;
+    background-color: white;
+}
+form{
+    height: 60vh;
+    width:60vw;
+    background-color: grey;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    margin: 0 0 100px 0;
+}
+.input{
+    margin: 10px;
+}
+input{
+    width: 30rem;
+}
+form button{
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#store{
+    margin: 10px 0 0 0 ;
+    padding: 30px;
+    height: 86vh ;
+    background-color: black;
+}
+#store>div{
+    height: 70vh;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+#store>div #type{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 17%;
+    background-color: darksalmon;
+}
+#merger{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    background-color: white;
+
+}
+#store>div #products{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width:70%;
+    background-color: darksalmon;
+}
+#store>div #offers{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width:30%;
+    background-color: darksalmon;
+}
+#store>div #links{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 17%;
+    background-color: darksalmon;
+}
+
+
+
